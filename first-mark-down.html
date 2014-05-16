@@ -49,17 +49,31 @@ Some of these words _are emphasized also_.
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, __use two underscores instead__.
 
-### This is a list
+## This is a list
 * Candy.
 * Gum.
 * Booze.
 
-### This is an ordinary list
+## This is an ordinary list
 1. Red
 2. Green
 3. Blue
 
+## This is an image
 ![alt text](http://blog.brainfacts.org/wp-content/uploads/happy-baby.jpg "Baby")
+
+I strongly recommend against using any `<blink>` tags.
+
+I wish SmartyPants used named entities like `&mdash;`
+instead of decimal-encoded entites like `&#8212;`.
+
+If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+<blockquote>
+<p>For example.</p>
+</blockquote>
+
 <!-- markdown end -->
 </div>
 <div class="entry" id="main">
@@ -90,7 +104,7 @@ Some of these words <em>are emphasized also</em>.
 Use two asterisks for <strong>strong emphasis</strong>.
 Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 
-<h3 id="thisisalist">This is a list</h3>
+<h2 id="thisisalist">This is a list</h2>
 
 <ul>
 <li>Candy.</li>
@@ -98,7 +112,7 @@ Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 <li>Booze.</li>
 </ul>
 
-<h3 id="thisisanordinarylist">This is an ordinary list</h3>
+<h2 id="thisisanordinarylist">This is an ordinary list</h2>
 
 <ol>
 <li>Red</li>
@@ -106,7 +120,21 @@ Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 <li>Blue</li>
 </ol>
 
+<h2 id="thisisanimage">This is an image</h2>
+
 <p><img src="http://blog.brainfacts.org/wp-content/uploads/happy-baby.jpg" alt="alt text" title="Baby"></p>
+
+<p>I strongly recommend against using any <code>&lt;blink&gt;</code> tags.</p>
+
+<p>I wish SmartyPants used named entities like <code>&amp;mdash;</code>
+instead of decimal-encoded entites like <code>&amp;#8212;</code>.</p>
+
+<p>If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:</p>
+
+<blockquote>
+<p>For example.</p>
+</blockquote>
 <!-- content end -->
 </div>
 <br>
